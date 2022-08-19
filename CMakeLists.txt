@@ -32,6 +32,22 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+		
+		core/Config.h
+		core/types/Base.h
+		core/types/List.h
+		core/types/Str.h
+		core/types/Str.cpp
+		core/types/Vector.h
+		core/utils/Buffer.h
+		core/utils/Buffer.cpp
+		core/utils/Singleton.h
+		core/utils/Stream.h
+		core/utils/Stream.cpp
+		core/test/CoreTest.h
+		core/test/CoreTest.cpp
+		
+		
 )
 
 source_group(TREE ${CMAKE_CURRENT_SOURCE_DIR} FILES ${PROJECT_SOURCES})
